@@ -1,0 +1,127 @@
+//////1.ПЕРЕМЕННЫЕ/////
+
+//const firstName = 'Mikita' ////cameCase
+//const age = 29 ///Number
+//const isProgrammer = true ///Boolean
+
+/////2.МУТИРОВАНИЕ/////
+
+//console.log ('Имя человека: ' + firstName + ' а возраст человека:' + age)
+//alert('Имя человека: ' + firstName + ' а возраст человека:' + age)
+
+//const lastName = prompt('Введите фамилию')
+//alert (firstName + '' + lastName)
+
+/////3.ОПЕРАТОРЫ/////
+
+//const currentYear = 2021
+//const birthYear = 1992
+//const age = currentYear - birthYear
+//console.log(age)
+
+//const a = 505
+//const b = 300
+//const c = 805
+//const result = a+b-c
+//console.log(result)
+
+/////4.ТИПЫ ДАННЫХ/////
+
+//const isProgrammer = true
+//const name = 'Mikita'
+//const age = 29
+//let y
+//null
+//console.log(typeof isProgrammer)
+//console.log(typeof name)
+//console.log(typeof 29)
+//console.log(typeof y)
+//console.log(typeof null)//баг
+
+/////5.ПРИОРИТЕТ ОПЕРАРЫ/////
+//const fullAge = 29
+//const birtYear = 1992
+//const currentYear = 2021
+//const isFullAge = currentYear-birtYear >=fullAge
+//console.log(isFullAge)
+
+/////6.УСЛОВНЫЕ ОПЕРАТОРЫ/////
+//const courseStatus = 'pending'//ready,fail
+//if (courseStatus === 'ready') {
+    //console.log('курс уже готов и его уже можно проходить') }
+    //else if (courseStatus === 'pending') {
+        //console.log('курс находиться пока в процессе разработки ')
+   // }else{
+//console.log ('Курс не получился')
+   // }
+
+//const num 1 = 42//Number
+//const num 2 = '42'//String
+
+//console.log(num1 === num2)///Нужно использовать ====
+
+/////7.Булевая логика/////
+
+/////8.ФУНКЦИИ/////
+
+//function calculateAge(year) {
+   // return 2021 - year
+//}
+
+//console.log(calculateAge(1992))
+//console.log(calculateAge(2000))
+//console.log(calculateAge(1965))
+
+//function logInfoAbout (name,year) {
+  // const age = calculateAge(year)
+    //if (age>0) {
+        //console.log('человек по имени ' + name + ' сейчас имеет возвраст ' + age)
+    //} else {
+       // console.log(`вообще-то это будущее`)
+   // }
+
+//logInfoAbout(`Mikita` , 1992)
+//logInfoAbout(`Elena` , 1995)
+//logInfoAbout(`Marina` , 2022)
+
+/////9.Массивы/////
+//const cars = new Array('Ауди, Мерседес, Бмв')
+
+//const  cars = ['Ауди, Мерседес, БМВ ']
+//console.log(cars.length)
+//console.log(cars [1])
+//console.log(cars [0])
+//console.log(cars [2])
+
+//cars[0] = 'Порше'
+//console.log(cars)
+//cars [cars.length] = 'Лексус'
+//console.log(cars)
+
+/////10.Циклы./////
+
+//const cars = ['Ауди, Мерседес, БМВ '];
+//for (let i=0; i < cars.length; i++) { //i++(увеличить i на еденицу)
+  //   const car = cars[i]
+    //console.log(car)
+ //}
+ //for (let car of cars){
+   //  console.log(cars)
+ //}
+
+///// 11.Обьекты.//////
+//const person = {
+   // firstName : 'Mikita',
+   // lastName : 'Aucharenka',
+   // year : '29',
+   // language :' [Ru,Eng,Bel]',
+//greet:function () {
+    //console.log('greet')
+
+//}
+//}
+//console.log(person.firstName)
+//console.log(person.lastName)
+//const key = 'language'
+//console.log(person[key])
+//person.greet()
